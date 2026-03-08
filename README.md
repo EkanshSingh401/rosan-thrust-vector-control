@@ -73,6 +73,9 @@ rosan-thrust-vector-control/
 ├ experiments/
 ├ firmware/
 └ simulations/
+   ├ sample_parameters.m
+   ├ response_analysis.m
+   └ control_notes.md
 ```
 
 ## Notes
