@@ -30,15 +30,23 @@ The control algorithm computes actuator commands to maintain target thrust orien
 
 Arduino-based control hardware drives servos responsible for thrust vector deflection.
 
+## Key Features
+
+- MATLAB / Simulink control system modeling
+- Closed-loop thrust vector control simulation
+- Arduino firmware for actuator control
+- Bench testing with high-speed camera validation
+- Experimental evaluation of response time and deflection accuracy
+
 ## Experimental Results
 
 Bench testing measured the system's response using high-speed video analysis.
 
-Key results:
+Key results include:
 
 - ±5° thrust deflection capability
 - ±0.2° control accuracy
-- 44.5 ms average response time
+- 44.5 ms average actuator response time
 - 120 FPS validation testing
 
 ## Tech Stack
@@ -50,20 +58,21 @@ C++
 
 ## Research
 
-Full research paper:
+Full research paper available on arXiv:
 
 https://arxiv.org/abs/2509.00061
 
 ## Repository Structure
 
-```
+```text
 rosan-thrust-vector-control/
 ├ README.md
 ├ LICENSE
-├ simulations/
-├ firmware/
+├ .gitignore
+├ docs/
 ├ experiments/
-└ docs/
+├ firmware/
+└ simulations/
 ```
 
 ## Notes
