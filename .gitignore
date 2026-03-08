@@ -1,0 +1,18 @@
+# MATLAB / Simulink
+*.asv
+*.autosave
+slprj/
+*.slxc
+
+# Arduino
+*.hex
+*.elf
+
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
